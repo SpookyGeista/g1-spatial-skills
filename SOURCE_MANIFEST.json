@@ -11,11 +11,15 @@
     },
     {
       "path": "README.md",
-      "sha256": "1b17c71bc0710b7ad082389bfd3547cce95fb1e2780d588f970740cfbe48c329"
+      "sha256": "ab258331d3658ec624e6737afae219b54b4882d9fd4b5b751bb23a54b1849b7a"
     },
     {
       "path": "demo.sh",
       "sha256": "2a9d83fbb53d7d8a74f27601f0d0ba7ae0c0cc8b753b4a7667e33a37bf67228f"
+    },
+    {
+      "path": "docs/TOOLS.md",
+      "sha256": "411bafb264f0b5410b1213e7bf119433b38f13d0d52160c7936b0e0c177ee7a9"
     },
     {
       "path": "inspection_plan.json",

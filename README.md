@@ -2,6 +2,9 @@
 
 Mapping, mission control, and terrain skills for the G1 in Isaac Sim. The project adds simulated LiDAR/IMU observations, localization integration, RGB-LiDAR visualization, and immersive RGB-D rendering.
 
+
+[Tool guide](docs/TOOLS.md): commands, inputs, outputs, and operating sequence.
+
 ## Initialize
 
 The standalone sensor tests require Python 3.11:
