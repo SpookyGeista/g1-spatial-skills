@@ -1,0 +1,7 @@
+{
+  "repositories": [
+    "https://github.com/NVlabs/GR00T-WholeBodyControl",
+    "https://github.com/Ericsii/FAST_LIO_ROS2",
+    "https://github.com/Livox-SDK/livox_ros_driver2"
+  ]
+}

@@ -1,0 +1,47 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index e091f3a..4f95294 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -9,7 +9,8 @@ endif()
+  ADD_COMPILE_OPTIONS(-std=c++17) 
+  set(CMAKE_CXX_FLAGS "-std=c++17 -O3") 
+   
+- add_definitions(-DROOT_DIR=\"${CMAKE_CURRENT_SOURCE_DIR}/\") 
++ set(FASTLIO_OUTPUT_ROOT "${CMAKE_CURRENT_SOURCE_DIR}" CACHE PATH "Directory for existing FAST-LIO runtime logs and PCD")
++ add_definitions(-DROOT_DIR=\"${FASTLIO_OUTPUT_ROOT}/\") 
+   
+  set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fexceptions") 
+  set(CMAKE_CXX_STANDARD 17) 
+@@ -57,8 +58,8 @@ find_package(sensor_msgs REQUIRED)
+ find_package(std_msgs REQUIRED)
+ find_package(std_srvs REQUIRED)
+ find_package(visualization_msgs REQUIRED)
+-find_package(pcl_ros REQUIRED)
+ find_package(pcl_conversions REQUIRED)
++find_package(tf2_ros REQUIRED)
+ find_package(livox_ros_driver2 REQUIRED)
+ find_package(rosidl_default_generators REQUIRED)
+ 
+@@ -71,8 +72,8 @@ set(dependencies
+   std_msgs
+   std_srvs
+   visualization_msgs
+-  pcl_ros
+   pcl_conversions
++  tf2_ros
+   livox_ros_driver2
+ )
+ 
+diff --git a/package.xml b/package.xml
+index 8c39e18..729bde8 100644
+--- a/package.xml
++++ b/package.xml
+@@ -25,7 +25,7 @@
+   <depend>sensor_msgs</depend>
+   <depend>common_interfaces</depend>
+   <depend>tf2</depend>
+-  <depend>pcl_ros</depend>
++  <depend>tf2_ros</depend>
+   <depend>pcl_conversions</depend>
+   <depend>livox_ros_driver2</depend>
+ 

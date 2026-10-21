@@ -1,0 +1,12 @@
+{
+  "task": "Inspect three specified service rooms, capture a full observed scan in each, identify printed case7 if visible, return to the inspection junction",
+  "prior": "Operator-supplied room observation coordinates in the registered map frame; known bounded building fixture, not general exploration",
+  "path_source": "Online A* through actual depth-observed free space using FAST-LIO localization; no wall map or target truth supplied",
+  "rooms": [
+    {"id":"west","observation_xy_m":[-2.10,-0.10]},
+    {"id":"east","observation_xy_m":[2.00,-0.10]},
+    {"id":"north","observation_xy_m":[0.00,3.25]}
+  ],
+  "arrival_radius_m":0.18,
+  "maximum_settled_scan_displacement_m":0.45
+}

@@ -1,0 +1,489 @@
+{
+  "prepared_date": "2026-10-21",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "09f81f49edc4cea9d07ecee5739802dba8f0e44425b125f5d35a007e35c6669f"
+    },
+    {
+      "path": "DEPENDENCIES.json",
+      "sha256": "367cea99e02cd11552ae45ffd83f3d63c2ae08276c48de477d817fe058dfb5fd"
+    },
+    {
+      "path": "README.md",
+      "sha256": "a7a8c77a36c9666d698ef2afc1422e019247e8b23a2f68684050f7659078ec40"
+    },
+    {
+      "path": "demo.sh",
+      "sha256": "2a9d83fbb53d7d8a74f27601f0d0ba7ae0c0cc8b753b4a7667e33a37bf67228f"
+    },
+    {
+      "path": "inspection_plan.json",
+      "sha256": "90537d6f426e7b9303e4fe189a9e826135af98ae8e51257df6d2e422b25d3ed5"
+    },
+    {
+      "path": "punktnull/__init__.py",
+      "sha256": "aad66d8ba42f9c9df8fd70c5a26f1fb2b6bb90864b366a4a521386c9f2c6fe49"
+    },
+    {
+      "path": "punktnull/gui.py",
+      "sha256": "54c6d2d8d32df4c9f30565cf15806a3cb49616d368da5203e728a6658f09349e"
+    },
+    {
+      "path": "punktnull/immersive_gl.py",
+      "sha256": "370f7a552407612b3ce8abf75509f366882706e04f98be439acadb7cac5b3f97"
+    },
+    {
+      "path": "punktnull/immersive_vulkan.py",
+      "sha256": "574a57baf09815458c88708d7a94efa3b4da49fec9ca7f71bd93a67232c5c2d5"
+    },
+    {
+      "path": "punktnull/immersive_xr.py",
+      "sha256": "53658905a52452aebfc4293962e073a56e738b5d9621bf03ed131ec54b803a67"
+    },
+    {
+      "path": "punktnull/inspection.py",
+      "sha256": "33101fedda7c208f105f7796e600e1303810447fcf929fca90dfcde5cc361bc3"
+    },
+    {
+      "path": "punktnull/isaac_runtime.py",
+      "sha256": "ec047b623ab30b8fe5cfa33defe49efdb68989a75fa7f32be344b7ee748ddf66"
+    },
+    {
+      "path": "punktnull/lidar_stereo.py",
+      "sha256": "4f6efc8313cd9f72719168b2bfa38024817f53703767ad7f24ad0c9470a308cc"
+    },
+    {
+      "path": "punktnull/localization.py",
+      "sha256": "e46bd3e69a83ee33d899f7139be196f92c66ba4719d1311c45ff71ea29ac59a4"
+    },
+    {
+      "path": "punktnull/mission_skill_evidence.py",
+      "sha256": "beb4051b371926b8a7f34285ed48e2797ac980b00ad106fe89c6e63942cbe8b3"
+    },
+    {
+      "path": "punktnull/mission_skills.py",
+      "sha256": "1ff06d35f1070e52f50c63cf71eac33d4e930af206e0a359081e0a437e4e3f3a"
+    },
+    {
+      "path": "punktnull/retained.py",
+      "sha256": "fbeb2187aa7f805f2915f13597ad825ffa437cc7a748d0f3500a1f4a5262c997"
+    },
+    {
+      "path": "punktnull/rgb_lidar.py",
+      "sha256": "db50fa4af0317ffe2bb50440f9c1e8ecd60c6c632e14dedefabee9495aa663d2"
+    },
+    {
+      "path": "punktnull/rgbd_surface.py",
+      "sha256": "24eebd3f4a8bd9a89491a5b861c73a16693e9c7e4b6a3a2dca5514a5a757a39a"
+    },
+    {
+      "path": "punktnull/sensor_transport.py",
+      "sha256": "47074018eda81ed6dc87c3b85165c0bc936a4c2ff8d777219ff76dd681030db8"
+    },
+    {
+      "path": "punktnull/sensors/__init__.py",
+      "sha256": "de2d7ce1b431b7f9a9425c101b5d83381f905d144b3856db3d10a06064078261"
+    },
+    {
+      "path": "punktnull/sensors/mid360.py",
+      "sha256": "bb58f2eeb6e592ac553db88514edcb4edacc4a6722dd18c7e796564a9eaf91ca"
+    },
+    {
+      "path": "punktnull/skills/__init__.py",
+      "sha256": "bc40d11cf8c110a7a3f3aac0a48fbc1c2735d00ba658e80e9646dcce87533685"
+    },
+    {
+      "path": "punktnull/skills/ankle_braking.py",
+      "sha256": "e3a03ddf62c27a43c014a332acf653d12ad9f2ec4a7ed512fa5227869902de0e"
+    },
+    {
+      "path": "punktnull/skills/evaluate.py",
+      "sha256": "04944a6a6739ab6e5a9eb0a474cbe3de03aa85009c086d88fb7c1558dd39773b"
+    },
+    {
+      "path": "punktnull/skills/guard.py",
+      "sha256": "e1b3ce41d685ff3a421e66768bb51c417a59e74dd81614931231d5ec8655e442"
+    },
+    {
+      "path": "punktnull/skills/legacy.py",
+      "sha256": "2e0322a4e934826aa2e35c8b4fac83f3937a6a0b561cf92bb3d1b3dcb6949f65"
+    },
+    {
+      "path": "punktnull/skills/limits.py",
+      "sha256": "fc2c376445205aabdc36c7f57856e66007cbc591c93616eec08bd64b04d0b2b0"
+    },
+    {
+      "path": "punktnull/skills/phase.py",
+      "sha256": "39eed6cb84a14ad60c8873b283fe7045d3863f1022cb5cba8632ee7ff5bec0a5"
+    },
+    {
+      "path": "punktnull/skills/platform.py",
+      "sha256": "f351561a7289313eaf6ca5cbdbfc4dceaf16f8cae049358118a0cff132aeadbf"
+    },
+    {
+      "path": "punktnull/skills/platform120_spec.py",
+      "sha256": "9fed1e49b706b39f284fb6b11547eae6a7e5b4191ec73e2b365d1cdde86605dc"
+    },
+    {
+      "path": "punktnull/skills/reference.py",
+      "sha256": "779db26f0d5a2e99406ea7bed8b5c43a54ca8330a239030f89d680e978a4c101"
+    },
+    {
+      "path": "punktnull/skills/runtime.py",
+      "sha256": "00e1dc8cc354c0085bee2802b7d57ee549642390a7ef7a17caef7561ac637949"
+    },
+    {
+      "path": "punktnull/skills/session.py",
+      "sha256": "165fb5bf81c6099d172a109b29d40d9e9838c004658379d01b5f55bf6b4ab3cf"
+    },
+    {
+      "path": "punktnull/skills/stairs.py",
+      "sha256": "6e375409b530214c4db23027fe031e16bd82190b9229dd0800d7066a6326fa56"
+    },
+    {
+      "path": "punktnull/skills/target_limit_hook.py",
+      "sha256": "7f10581f5784289e583de73d430114be5a92665b8cd22412211e5cde22391e98"
+    },
+    {
+      "path": "punktnull/skills/target_limits.py",
+      "sha256": "86d6fb9f78f1c436c8a0de02195befc6917b4db706986ccb811073cb39c93d17"
+    },
+    {
+      "path": "punktnull/terrain/inspection_passage.py",
+      "sha256": "07659f976ce36e9b0c90275b4318857b697df6b66d13b6471fb482c194a45e3d"
+    },
+    {
+      "path": "punktnull/terrain/kinematics.py",
+      "sha256": "0c9ad2f60d69c22e6366a06a1c20126dc7295cdfaca1ccd279943aae5da3c881"
+    },
+    {
+      "path": "punktnull/terrain/mission_camera.py",
+      "sha256": "14f4ef35f02739bec5983fe136a58ff1a6387b0c0013ca2dd9e50661881bd6a2"
+    },
+    {
+      "path": "punktnull/terrain/observations.py",
+      "sha256": "260f8e8a37ee04d6c9512fdff9196aba2665aa45cf06a3044790635fcf098f09"
+    },
+    {
+      "path": "punktnull/terrain/platform.py",
+      "sha256": "db910ee67f333f442407981c576f2a0c5924fcfbe7051ceace040c409326c116"
+    },
+    {
+      "path": "punktnull/terrain/service_passage.py",
+      "sha256": "681a82b518edd2619c849b4f00ff8f2958c33d07369fe657edbb674ca04e0a00"
+    },
+    {
+      "path": "punktnull/terrain/stairs.py",
+      "sha256": "2a5cab4821f8b7f13a17d9ebe5a8bf5dea5e4e36423d4757294c5c0725bf81d7"
+    },
+    {
+      "path": "punktnull/wholebody_lidar_xr.py",
+      "sha256": "6052f836d3f5c1ac0a71c820d21933d53ffd9a9dd33ad79cb11acff976390f86"
+    },
+    {
+      "path": "requirements-immersive.txt",
+      "sha256": "55d199356a28212a801a234e1a2bad3d96845ecc304e966c489420728bb09c1f"
+    },
+    {
+      "path": "requirements-offline.txt",
+      "sha256": "a397020d8484fc118f5bcdf4137d4d87c6809f83aa8aa5fe9d6fcbd8d9edbb36"
+    },
+    {
+      "path": "ros2_ws/activate.sh",
+      "sha256": "af4da1550cec2d921d6a473098c4c41f2701320403fe290f563ad234a2ccba1b"
+    },
+    {
+      "path": "ros2_ws/build_local.sh",
+      "sha256": "47dacd83531ce58ba09d303060ec667a5671ffaa39b01bb58a64e39b7f01ca2b"
+    },
+    {
+      "path": "ros2_ws/patches/fast_lio_ros2-build-only.patch",
+      "sha256": "1e7ad93fbbb27a8db255ec4b9472ccf9f13827f8a92a334125966897d634e7fc"
+    },
+    {
+      "path": "ros2_ws/probe_startup.py",
+      "sha256": "259dd1871940eb9053161a827658b7521f6a49364dc101b0910e9ce1653cc54d"
+    },
+    {
+      "path": "run_isaac.py",
+      "sha256": "5f7b8167c0f42b1e7a3ced683eba5b6891c500d03af3ce0f375e40396c9e0eef"
+    },
+    {
+      "path": "run_mission.py",
+      "sha256": "4a6c0fbb96f3ab2c0ce52182d9e23d50299b4f218dfe0bdc606e54024a39f808"
+    },
+    {
+      "path": "tests/test_ankle_braking.py",
+      "sha256": "d9e93bd73f22e24d18a84a42010663c23137dee07e918db56e62ad3b902bcbcb"
+    },
+    {
+      "path": "tests/test_diagnose_skill_limits.py",
+      "sha256": "fa831abbe016eb6a89075deb779c608ee1bef92297b1157331a580782c6661b1"
+    },
+    {
+      "path": "tests/test_evaluate_g1_lio.py",
+      "sha256": "7cff7b2f169abd9e11a6dad74dec30c7f04b356a91516dd6487a601a5f09baf3"
+    },
+    {
+      "path": "tests/test_inspection.py",
+      "sha256": "8be73562f4ab693f336dcb82c9881bb1d68448cb4939b2ffb961244b40d29362"
+    },
+    {
+      "path": "tests/test_inspection_passage.py",
+      "sha256": "c05cc5d87431cd7b196f0cbea9bda846519023ec8758ced30b87ee643f1b1305"
+    },
+    {
+      "path": "tests/test_lidar_occlusion.py",
+      "sha256": "84b1946f6bf7abe980e863132cec9fe978ae03094b3f46c48286449aa10910a8"
+    },
+    {
+      "path": "tests/test_localization.py",
+      "sha256": "a986dd3e7ed88309d918783e1a83e9b66cad64dd29a879b1193a4e75f94a7c17"
+    },
+    {
+      "path": "tests/test_mid360.py",
+      "sha256": "86211a53ade72a5970d6c9bbbaa6b08678e853596b4eb8e894dafbd924ec4d78"
+    },
+    {
+      "path": "tests/test_mission_camera.py",
+      "sha256": "b7a4ffb69ad655b0f034228b8c695a02e8b3823d5af5851d3852eb5adf9277df"
+    },
+    {
+      "path": "tests/test_mission_faults_audit.py",
+      "sha256": "76f5e8ceeb450373aca137a4b317d1afb021db54cf443e52c47f6fecead6719e"
+    },
+    {
+      "path": "tests/test_mission_skill_evidence.py",
+      "sha256": "9c2ba1976e5239b6d4de6d57c7ae001ed9a7153bf205633b1c3cc3ea7a8c483f"
+    },
+    {
+      "path": "tests/test_mission_skill_gates.py",
+      "sha256": "4a4850ee5969a14e075443e3feb06065ec7a5543c0fac94848fb8c7586da411c"
+    },
+    {
+      "path": "tests/test_native_reference_evidence.py",
+      "sha256": "5c1b142cbfeccd9f95675d82936ae4987876a8948f9eabcead4f910181a1b014"
+    },
+    {
+      "path": "tests/test_platform.py",
+      "sha256": "6e02baccdd6cedc658239339f0fae6da5db461bf20b5b151ae7b0a03776b8620"
+    },
+    {
+      "path": "tests/test_platform_timing.py",
+      "sha256": "35accde61f8ca169e7c9b419c9ec1bc565658f261d28df70a74afcd9dffcdfa4"
+    },
+    {
+      "path": "tests/test_replay_mission_review.py",
+      "sha256": "99346f325511f855b78e11de9f4c3bc22971c54cb6af465d8043002234e022fc"
+    },
+    {
+      "path": "tests/test_rgb_lidar.py",
+      "sha256": "febe6e63f9feb24ac008b7bc2446dc13d870bc729f2d6fbff98956d90aa4a694"
+    },
+    {
+      "path": "tests/test_rgb_lidar_preview.py",
+      "sha256": "255af4afc1520aa365f1f1b0146867cebf2c9cc7d7e4cc3e1a22ce59069c80bb"
+    },
+    {
+      "path": "tests/test_rgbd_surface.py",
+      "sha256": "d2087ec5e2d9da6fa11db53277434e3be4d7ceb8508914a75f9e0a77260be795"
+    },
+    {
+      "path": "tests/test_sensor_transport.py",
+      "sha256": "f29e5863d1083902ca6d8b4bdd2cddec36cd616740585a1b9de32e7917f9a868"
+    },
+    {
+      "path": "tests/test_service_passage.py",
+      "sha256": "00b0b0f8948ee1ef731a328f9734431b8b2d533b19e99ac8038b8bcbfe827f72"
+    },
+    {
+      "path": "tests/test_skill_actual_limits.py",
+      "sha256": "afed562a181335d4d9437289e2ee129b1224d02f12587145f7aa21108704dbcb"
+    },
+    {
+      "path": "tests/test_skill_camera.py",
+      "sha256": "32fa3ed048a00ad048507d0999eb79c860115fdbf1f1dfe4ff325e36193f64a2"
+    },
+    {
+      "path": "tests/test_skill_target_limits.py",
+      "sha256": "bcb7ba8d9d878494d92e819003f6ac1d0217c2b616fb9e78d0ce221f5079df6d"
+    },
+    {
+      "path": "tests/test_skills_reference.py",
+      "sha256": "06ad8de844246625c55c2c121f9c0c694e0c0b86e4824bb7741d3dfcecd3835c"
+    },
+    {
+      "path": "tests/test_stairs.py",
+      "sha256": "06ff242c0ccb62c81bf7303a87c39fa6ea1d9fa1ec9b93f59cd58750afa4ba9f"
+    },
+    {
+      "path": "tests/test_status_publication.py",
+      "sha256": "22ccfb80c0715fccd5997544e3da165f88e5300697a164a36b0c1a1afeafa56a"
+    },
+    {
+      "path": "tests/test_summarize_runs.py",
+      "sha256": "90ddf7f5a8168915465f5765ac7cc1b3a23548aa57e45cb006c49f5fcb06f5ce"
+    },
+    {
+      "path": "tests/test_terrain_observations.py",
+      "sha256": "3f11522c4319ca3a6b96b79ef563290b29fe369103196c404ee2bb12945ec98b"
+    },
+    {
+      "path": "tools/analyze_native_skill_targets.py",
+      "sha256": "c0867b6070012d429fb8eec81cd8d014a72bf5c153b3d47f4cb27a6ddcce9360"
+    },
+    {
+      "path": "tools/analyze_skill_tracking.py",
+      "sha256": "9b755885477d1d4647452dc0f28895ef320e5cd210d39f3fdc4573dabfad1ced"
+    },
+    {
+      "path": "tools/audit_ground_alternatives.py",
+      "sha256": "fd9f7accffd1630a0ff83852614cd0beed800fda57da55ab4b192a4854332aa0"
+    },
+    {
+      "path": "tools/audit_target_evidence.py",
+      "sha256": "f504ef9c0c8f9cfa084e5cf22bbfcfcabf8ca5862833caf97d1c4d3d9182fbe9"
+    },
+    {
+      "path": "tools/check_immersive.py",
+      "sha256": "828c74de714223a94603939644719c59f87749e98490381dab56a1fbd2b254ee"
+    },
+    {
+      "path": "tools/check_inspection_camera.py",
+      "sha256": "70802691e9a39006d0e1e7fa275419c231e3be5f04b26b8d89e02e4c94d5a1df"
+    },
+    {
+      "path": "tools/check_inspection_passage.py",
+      "sha256": "b3612bd34b556fa9e906309be493aee91cb2ee15495a228b78a3bbea772404f6"
+    },
+    {
+      "path": "tools/check_inspection_usd.py",
+      "sha256": "ecfc34e8b4d726464800e8b044d15a26c8d00a4ca7c7f005c69913a90cc0c358"
+    },
+    {
+      "path": "tools/check_rgb_lidar.py",
+      "sha256": "8740746c74c99b48e3979bf8c2224ca3ec63da554cb0ac0dd49a9be1b81b77ac"
+    },
+    {
+      "path": "tools/check_sensor_capture.py",
+      "sha256": "da8d5005ef6e62d0582a163db2b5fae5da66f350fa120b420dd919f2894d7bb6"
+    },
+    {
+      "path": "tools/check_service_passage.py",
+      "sha256": "26fd2e750571b014b0d3d950782ff95badcebb2339549b532f8311889a23a3ff"
+    },
+    {
+      "path": "tools/derive_stair_fixture.py",
+      "sha256": "960f6107d50173ea1a67703e7de94ef5a699730db8e18fbaaf2075c6482fb48c"
+    },
+    {
+      "path": "tools/derive_terrain.py",
+      "sha256": "6ac502dedcf009885fba36ce0cf82a0bd44c4ba4cb488e27a33e80938b6b26c4"
+    },
+    {
+      "path": "tools/diagnose_skill_limits.py",
+      "sha256": "25653a520a68b70e7069e0c5fa94739027fb6070974e8189f09fa53570af4c36"
+    },
+    {
+      "path": "tools/evaluate_g1_lio.py",
+      "sha256": "7959a5f7b76bdd4cdb5fe1ebc5c8c6819c8e4ffc4a61d12e279a8d1c902e084d"
+    },
+    {
+      "path": "tools/g1_lidar_probe.py",
+      "sha256": "e529fbf813e716bdbda6bb942cecd232a07bc7fe739eb261683a0929e535d25d"
+    },
+    {
+      "path": "tools/generate_crawl_margin.py",
+      "sha256": "622f7cb92f3afd405c3c0c2dc4addeecde0b612a5b3b7f07e6a51909f46006fb"
+    },
+    {
+      "path": "tools/generate_crawl_slow_getup.py",
+      "sha256": "dc1f934b5a04b8238ba6670b0f0c792b1f8a44fd552d11be30da590c5b45b8ce"
+    },
+    {
+      "path": "tools/lio_bridge.py",
+      "sha256": "2b1b2f10746abb8d29fe0f7013171ab059a51ad7c77154a5a26b31aeb6953da8"
+    },
+    {
+      "path": "tools/lio_plot.py",
+      "sha256": "7c8625522d1d710313aea01af6b8cb2b7d6b912ae9dfb935d237a69984dd44ac"
+    },
+    {
+      "path": "tools/lio_validate.py",
+      "sha256": "183f3a8d6292e33b343144cc6b9d4622a445d2787c257bee9d0ce484f4dadc2f"
+    },
+    {
+      "path": "tools/native_reference_evidence.py",
+      "sha256": "29df0594ada0dca1ed1c03a5d7f4552bb7751379c2955087536addaec9b2ef70"
+    },
+    {
+      "path": "tools/operator.py",
+      "sha256": "e2a29246c89768002aaea77815eb701ba44ac191fcb4efb73af7cd0b867b81d7"
+    },
+    {
+      "path": "tools/platform_timing_audit.py",
+      "sha256": "e70be0e20974f23037896cd5d0dd97de0a81f64febaec647db1c6b426d8757ca"
+    },
+    {
+      "path": "tools/platform_trial.py",
+      "sha256": "5f2677f255ea15b9736933dc1d550b0ca6ea63d84a8e315e07d476c4e8549047"
+    },
+    {
+      "path": "tools/plot_g1_lio.py",
+      "sha256": "87ea2cf58777fe1181d3229e6194c41a9599b1ec42de297a549c3ee95eb064c5"
+    },
+    {
+      "path": "tools/replay_mission_review.py",
+      "sha256": "0df38ca649cd2f64a950be8a38b81ed56ec0a5cec7d1695c0c5d8c16ce2fb208"
+    },
+    {
+      "path": "tools/skill_evaluate.py",
+      "sha256": "f1735fb2d0e546955f6b893984eb1098ca4aedc22cdd51bf53b2f72c4f727d60"
+    },
+    {
+      "path": "tools/skill_sim.py",
+      "sha256": "8130d70fe86d4d1cb315e2e7d146394486fc457f4d1c7ba404026c170e7abaf4"
+    },
+    {
+      "path": "tools/skill_trial.py",
+      "sha256": "0eadaf68d888e3d18f06a0f28f7a1268e866f95cf70b550a8816739b88f07cd2"
+    },
+    {
+      "path": "tools/smoke_mid360.py",
+      "sha256": "ed82066c886ad0b103111bdf0b5cde4e9041aa639918c8ce5ea28004f82f799c"
+    },
+    {
+      "path": "tools/stair_failure_diagnosis.py",
+      "sha256": "813bca92ea4e2ee07603bbf9ea3981fc74a0fbd4079b4601565d7d6ee4254207"
+    },
+    {
+      "path": "tools/stair_reference_audit.py",
+      "sha256": "3e9ffb993139736963f48e1df462451ffed731102f142000c0e9944b7980ba73"
+    },
+    {
+      "path": "tools/stair_trial.py",
+      "sha256": "6f08934a41397b482cae8559de71606e172c04973db85a60d0e77ffa4927d0b5"
+    },
+    {
+      "path": "tools/summarize_platform_series.py",
+      "sha256": "e1129e3ed26dc716f4845364a4172990a6e2c04995304ac320f995bb3174ddfb"
+    },
+    {
+      "path": "tools/summarize_runs.py",
+      "sha256": "e5bb706180f56e31609c6d16cf66f5d39e48cbc75de1a80607f46c7230308869"
+    },
+    {
+      "path": "tools/test_mission_faults.py",
+      "sha256": "7afe416b7152cccb034300cc90b300bfca87b3cd790f30c71afd966771f9d79f"
+    },
+    {
+      "path": "tools/view_rgb_lidar.py",
+      "sha256": "05a04ed03d10b13bf67d6b98724b8417e57b435cd3581c251f21057a34535672"
+    },
+    {
+      "path": "tools/wholebody_rgb_lidar.py",
+      "sha256": "26a3ccb500c1de1b5a9eb0ec15898cb9d9f52943ef337498455d5c972e342dd9"
+    }
+  ]
+}
